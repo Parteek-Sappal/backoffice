@@ -136,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="addrole.aspx.vb" />
     <Content Include="Bundle.config" />
     <Content Include="calendar_js\epoch_classes.js" />
     <Content Include="calendar_js\epoch_styles.css" />
