@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/office/layouts/BackMaster.Master" AutoEventWireup="true" CodeBehind="mapallproduct.aspx.cs" Inherits="backoffice.office.Products.mapallproduct" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <script type="text/javascript" src="/fancybox/1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-    <script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-    <link rel="stylesheet" type="text/css" href="/fancybox/jquery.fancybox-1.3.4.css"
+    <script type="text/javascript" src="../../fancybox/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script type="text/javascript" src="../../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../fancybox/jquery.fancybox-1.3.4.css"
         media="screen" />
     <script type="text/javascript">
         $(document).ready(function () {

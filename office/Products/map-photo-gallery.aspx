@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/office/layouts/BackMaster.Master" AutoEventWireup="true" CodeBehind="map-photo-gallery.aspx.cs" Inherits="backoffice.office.Products.map_photo_gallery" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-    <script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-    <link rel="stylesheet" type="text/css" href="/fancybox/jquery.fancybox-1.3.4.css"
+    <script type="text/javascript" src="../../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script type="text/javascript" src="../../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../fancybox/jquery.fancybox-1.3.4.css"
         media="screen" />
     <link rel="stylesheet" type="text/css" href="../../calendar_js/epoch_styles.css" />
     <script type="text/javascript" src="../../calendar_js/epoch_classes.js"></script>

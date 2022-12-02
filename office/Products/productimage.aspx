@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="productimage.aspx.cs" Inherits="backoffice.office.Products.productimage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="productimage.aspx.cs" Inherits="backoffice.office.Products.productimage" Theme="backtheme" %>
 
 <!DOCTYPE html>
 

@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/office/layouts/BackMaster.Master" AutoEventWireup="true" CodeBehind="uploadproduct.aspx.cs" Inherits="backoffice.office.Products.uploadproduct" %>
+﻿
+<%@ Page Title="" Language="C#" MasterPageFile="~/office/layouts/BackMaster.Master" AutoEventWireup="true" CodeBehind="uploadproduct.aspx.cs" Inherits="backoffice.office.Products.uploadproduct" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style type="text/css">
         #ptag

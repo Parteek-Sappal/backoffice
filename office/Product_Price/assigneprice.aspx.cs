@@ -500,7 +500,7 @@ namespace backoffice.office.Product_Price
 
             pdfDocument.LicenseKey = "B4mYiJubiJiInIaYiJuZhpmahpGRkZE=";
             PdfPageSize pdfPageSize__1 = PdfPageSize.A4;
-            Margins pdfPageMargins = new Margins(0, 0, 20, 0);
+            EvoPdf.Margins pdfPageMargins = new EvoPdf.Margins(0, 0, 20, 0);
 
             PdfPage firstPdfPage = pdfDocument.AddPage(pdfPageSize__1, pdfPageMargins, 0);
 

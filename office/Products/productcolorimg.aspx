@@ -1,14 +1,15 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="productcolorimg.aspx.cs" Inherits="backoffice.office.Products.productcolorimg" %>
+﻿
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="productcolorimg.aspx.cs" Inherits="backoffice.office.Products.productcolorimg" Theme="backtheme" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-       <script type="text/javascript" src="/fancybox/jquery-1.4.3.min.js"></script>
-    <script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-    <script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-    <link rel="stylesheet" type="text/css" href="/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+       <script type="text/javascript" src="../../fancybox/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="../../fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script type="text/javascript" src="../../fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../fancybox/jquery.fancybox-1.3.4.css" media="screen" />
     <script type="text/javascript">
        $(document).ready(function () {
           
