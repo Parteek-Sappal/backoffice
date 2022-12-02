@@ -129,8 +129,7 @@ namespace backoffice.office.usermanagement
             if (e.Row.RowType == DataControlRowType.DataRow || e.Row.RowType == DataControlRowType.Header || e.Row.RowType == DataControlRowType.Footer)
             {
                 e.Row.Cells[0].Visible = false;
-            }
-            
+            }           
         }
 
         protected void gridSubDepartment_RowDataBound(object sender, GridViewRowEventArgs e)
