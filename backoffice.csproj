@@ -57,6 +57,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\office\office\bin\CKEditor.NET.dll</HintPath>
     </Reference>
+    <Reference Include="DataSetToExcel, Version=0.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\office\office\bin\DataSetToExcel.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationBlocks.Data.2.0.0\lib\net45\Microsoft.ApplicationBlocks.Data.dll</HintPath>
     </Reference>
@@ -764,6 +768,13 @@
     <Content Include="office\media\media_coverage.aspx" />
     <Content Include="office\media\media_section.aspx" />
     <Content Include="office\media\viewmedia_section.aspx" />
+    <Content Include="office\others\loghistory.aspx" />
+    <Content Include="office\others\productenquiry.aspx" />
+    <Content Include="office\others\subscriber.aspx" />
+    <Content Include="office\others\view-enquiry-details.aspx" />
+    <Content Include="office\others\viewblogenquiry.aspx" />
+    <Content Include="office\others\viewdistributor.aspx" />
+    <Content Include="office\others\viewenquiry.aspx" />
     <Content Include="office\theme\backtheme.skin" />
     <Content Include="office\layouts\BackMaster.Master" />
     <Content Include="office\bootstrap\css\bootstrap.css.map" />
@@ -1180,6 +1191,55 @@
     </Compile>
     <Compile Include="office\media\viewmedia_section.aspx.designer.cs">
       <DependentUpon>viewmedia_section.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\others\loghistory.aspx.cs">
+      <DependentUpon>loghistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\others\loghistory.aspx.designer.cs">
+      <DependentUpon>loghistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\others\productenquiry.aspx.cs">
+      <DependentUpon>productenquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\others\productenquiry.aspx.designer.cs">
+      <DependentUpon>productenquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\others\subscriber.aspx.cs">
+      <DependentUpon>subscriber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\others\subscriber.aspx.designer.cs">
+      <DependentUpon>subscriber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\others\view-enquiry-details.aspx.cs">
+      <DependentUpon>view-enquiry-details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\others\view-enquiry-details.aspx.designer.cs">
+      <DependentUpon>view-enquiry-details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\others\viewblogenquiry.aspx.cs">
+      <DependentUpon>viewblogenquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\others\viewblogenquiry.aspx.designer.cs">
+      <DependentUpon>viewblogenquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\others\viewdistributor.aspx.cs">
+      <DependentUpon>viewdistributor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\others\viewdistributor.aspx.designer.cs">
+      <DependentUpon>viewdistributor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\others\viewenquiry.aspx.cs">
+      <DependentUpon>viewenquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\others\viewenquiry.aspx.designer.cs">
+      <DependentUpon>viewenquiry.aspx</DependentUpon>
     </Compile>
     <Compile Include="office\usercontrols\uc_backmenu.ascx.cs">
       <DependentUpon>uc_backmenu.ascx</DependentUpon>
