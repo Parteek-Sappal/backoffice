@@ -810,6 +810,17 @@
     <Content Include="office\Product_Price\viewuserproductprice.aspx" />
     <Content Include="office\redirectionmanagement\redirection.aspx" />
     <Content Include="office\Registration\viewregistration.aspx" />
+    <Content Include="office\Services\mapproject.aspx" />
+    <Content Include="office\Services\service.aspx" />
+    <Content Include="office\Services\servicetype.aspx" />
+    <Content Include="office\Services\viewservice.aspx" />
+    <Content Include="office\team\our-team.aspx" />
+    <Content Include="office\team\teamsubtype.aspx" />
+    <Content Include="office\team\teamtype.aspx" />
+    <Content Include="office\team\view-team.aspx" />
+    <Content Include="office\Testimonials\addtestimonials.aspx" />
+    <Content Include="office\Testimonials\addtestimonialstype.aspx" />
+    <Content Include="office\Testimonials\viewtestimonials.aspx" />
     <Content Include="office\theme\backtheme.skin" />
     <Content Include="office\layouts\BackMaster.Master" />
     <Content Include="office\bootstrap\css\bootstrap.css.map" />
@@ -845,6 +856,7 @@
     <Content Include="office\theme\plus.gif" />
     <Content Include="office\theme\sterco.js" />
     <Content Include="office\usercontrols\uc_backmenu.ascx" />
+    <Content Include="office\usermanagement\addrole.aspx" />
     <Content Include="office\users\changepass.aspx" />
     <Content Include="office\users\homepage.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -1458,12 +1470,96 @@
     <Compile Include="office\Registration\viewregistration.aspx.designer.cs">
       <DependentUpon>viewregistration.aspx</DependentUpon>
     </Compile>
+    <Compile Include="office\Services\mapproject.aspx.cs">
+      <DependentUpon>mapproject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Services\mapproject.aspx.designer.cs">
+      <DependentUpon>mapproject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Services\service.aspx.cs">
+      <DependentUpon>service.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Services\service.aspx.designer.cs">
+      <DependentUpon>service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Services\servicetype.aspx.cs">
+      <DependentUpon>servicetype.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Services\servicetype.aspx.designer.cs">
+      <DependentUpon>servicetype.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Services\viewservice.aspx.cs">
+      <DependentUpon>viewservice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Services\viewservice.aspx.designer.cs">
+      <DependentUpon>viewservice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\team\our-team.aspx.cs">
+      <DependentUpon>our-team.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\team\our-team.aspx.designer.cs">
+      <DependentUpon>our-team.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\team\teamsubtype.aspx.cs">
+      <DependentUpon>teamsubtype.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\team\teamsubtype.aspx.designer.cs">
+      <DependentUpon>teamsubtype.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\team\teamtype.aspx.cs">
+      <DependentUpon>teamtype.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\team\teamtype.aspx.designer.cs">
+      <DependentUpon>teamtype.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\team\view-team.aspx.cs">
+      <DependentUpon>view-team.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\team\view-team.aspx.designer.cs">
+      <DependentUpon>view-team.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Testimonials\addtestimonials.aspx.cs">
+      <DependentUpon>addtestimonials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Testimonials\addtestimonials.aspx.designer.cs">
+      <DependentUpon>addtestimonials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Testimonials\addtestimonialstype.aspx.cs">
+      <DependentUpon>addtestimonialstype.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Testimonials\addtestimonialstype.aspx.designer.cs">
+      <DependentUpon>addtestimonialstype.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Testimonials\viewtestimonials.aspx.cs">
+      <DependentUpon>viewtestimonials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Testimonials\viewtestimonials.aspx.designer.cs">
+      <DependentUpon>viewtestimonials.aspx</DependentUpon>
+    </Compile>
     <Compile Include="office\usercontrols\uc_backmenu.ascx.cs">
       <DependentUpon>uc_backmenu.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="office\usercontrols\uc_backmenu.ascx.designer.cs">
       <DependentUpon>uc_backmenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="office\usermanagement\addrole.aspx.cs">
+      <DependentUpon>addrole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\usermanagement\addrole.aspx.designer.cs">
+      <DependentUpon>addrole.aspx</DependentUpon>
     </Compile>
     <Compile Include="office\users\changepass.aspx.cs">
       <DependentUpon>changepass.aspx</DependentUpon>
