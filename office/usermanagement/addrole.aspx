@@ -83,21 +83,22 @@
                 <strong>&nbsp;PERMISSION</strong>
             </td>
         </tr>
-        <% If Val(Request.QueryString("roleid")) <> 1 Then%>
+        <% if ((Request.QueryString["roleid"]) != "1") %>
+        <%{%>
         <tr>
             <td colspan="4">
                 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                     <ContentTemplate>
-                        <asp:DataList ID="DlAccess" runat="server" Width="100%">
+                        <asp:DataList ID="DlAccess" runat="server" Width="100%" OnItemDataBound="DlAccess_ItemDataBound">
                             <ItemTemplate>
                                 <table width="100%">
                                     <tr>
                                         <td style="width: 2%">
-                                            <asp:ImageButton ID="btnshow" ImageUrl="~/backoffice/assets/newplus.png" CommandArgument='<%# eval("Moduleid") %>'
+                                            <asp:ImageButton ID="btnshow" ImageUrl="~/office/assets/newplus.png" CommandArgument='<%# Eval("Moduleid") %>'
                                                 CausesValidation="false" CommandName="show" runat="server" />
                                                 <asp:ImageButton ID="btnhide"
-                                                    Visible="false" ImageUrl="~/backoffice/assets/newsub.png" CausesValidation="false"
-                                                    CommandArgument='<%# eval("Moduleid") %>' CommandName="hide" runat="server" />
+                                                    Visible="false" ImageUrl="~/office/assets/newsub.png" CausesValidation="false"
+                                                    CommandArgument='<%# Eval("Moduleid") %>' CommandName="hide" runat="server" />
 
                                         </td>
                                         <td style="width: 98%">
@@ -108,7 +109,7 @@
                                                             <asp:Label runat="server" ID="lblMName" Text='<%# Eval("Modulename")%>'></asp:Label></strong>
                                                     </td>
                                                     <td align="right">
-                                                        <asp:TextBox Visible="false" ID="txtmid" runat="server" Text='<%# eval("Moduleid") %>'></asp:TextBox>
+                                                        <asp:TextBox Visible="false" ID="txtmid" runat="server" Text='<%# Eval("Moduleid") %>'></asp:TextBox>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -235,7 +236,7 @@
                 </asp:UpdatePanel>
             </td>
         </tr>
-        <%End If%>
+        <%}%>
         <tr>
             <td align="center" colspan="4" style="height: 15px">
                 <asp:Button ID="btnSubmit" runat="server" CssClass="btnbg" Text="Submit" />
