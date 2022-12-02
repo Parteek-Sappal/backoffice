@@ -136,7 +136,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="addrole.aspx.vb" />
     <Content Include="Bundle.config" />
     <Content Include="calendar_js\epoch_classes.js" />
     <Content Include="calendar_js\epoch_styles.css" />
@@ -858,6 +857,8 @@
     <Content Include="office\theme\sterco.js" />
     <Content Include="office\usercontrols\uc_backmenu.ascx" />
     <Content Include="office\usermanagement\addrole.aspx" />
+    <Content Include="office\usermanagement\adduser.aspx" />
+    <Content Include="office\usermanagement\viewrole.aspx" />
     <Content Include="office\users\changepass.aspx" />
     <Content Include="office\users\homepage.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -1561,6 +1562,20 @@
     </Compile>
     <Compile Include="office\usermanagement\addrole.aspx.designer.cs">
       <DependentUpon>addrole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\usermanagement\adduser.aspx.cs">
+      <DependentUpon>adduser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\usermanagement\adduser.aspx.designer.cs">
+      <DependentUpon>adduser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\usermanagement\viewrole.aspx.cs">
+      <DependentUpon>viewrole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\usermanagement\viewrole.aspx.designer.cs">
+      <DependentUpon>viewrole.aspx</DependentUpon>
     </Compile>
     <Compile Include="office\users\changepass.aspx.cs">
       <DependentUpon>changepass.aspx</DependentUpon>
