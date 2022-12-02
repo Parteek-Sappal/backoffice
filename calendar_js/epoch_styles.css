@@ -1,0 +1,102 @@
+/*<%@ ContentType="text/css" %>*/
+table.calendar {
+	font-family:"Lato",Arial,Helvetica,sans-serif;
+	font-size: 0.8em;
+	border-collapse: collapse;
+	background:#fff;
+	border: 1px solid #e3e3e3;
+	width: 200px;
+	text-align: center;
+	/*prevent user from selecting text in Mozilla & Safari - check calendar constructor for IE code)*/
+	-moz-user-select: none;
+    /*-khtml-user-select: none;*/
+}
+
+table.calendar input{
+	margin-bottom:5px;
+    border: 1px solid #e11c24;
+    background: #e11c24;
+	color:#fff;
+	font-size: 14px;
+    line-height: 22px;
+}
+table.calendar select {
+	font-size: 14px;
+	border:1px solid #ccc;
+	background: #fff;
+    line-height: 26px;height: 26px;position: relative;
+    top: 1px;
+    margin: 0 2px;
+}
+table.calendar td {
+	border: 0;
+	font-size: 10px;
+	text-align: center;
+}
+div.mainheading {
+	margin: 2px;
+}
+table.caldayheading {
+	border-collapse: collapse;
+	cursor: pointer;
+	empty-cells: show;
+	margin: 0 6px 0 6px;
+}
+table.caldayheading td {
+	border: solid #eaeaea 1px;
+	text-align: left;
+	color: #fff;
+	font-weight: bold;
+	width: 22px; /*should match calendar cell's width*/
+}
+table.caldayheading td.wkhead {
+	border-right: double #eaeaea 3px;
+}
+table.calcells {
+	border-collapse: collapse;
+	cursor: pointer;
+	margin: 0 6px 0 6px;
+}
+table.calcells td {
+	border: solid #eaeaea 1px;
+	vertical-align: top;
+	text-align: left;
+	font-weight: bold;
+	width: 22px;
+	height: 20px; /*IE doesn't like ems*/
+}
+table.calcells td div {
+	padding: 1px;
+	margin: 0;
+}
+table.calcells td.wkhead {
+	background-color: white;
+	text-align: center;
+	border-right: double #eaeaea 3px;
+	color: #0054E3;
+}
+table.calcells td.wkday {
+	background-color: #DDDDDD;
+}
+table.calcells td.wkend {
+	background-color: #DDDDDD;
+}
+table.calcells td.curdate {
+background-color: #bbb;
+}
+table.calcells td.cell_selected {
+	background-color: #99CCFF;
+	color: black;
+}
+table.calcells td.notmnth {
+	background-color: #FFFFFF;
+	color: #eaeaea;
+}
+table.calcells td.notallowed {
+	background-color: white;
+	color: #EEEEEE;
+	font-style: italic;
+}
+table.calcells td.hover {
+	background-color: #999999;
+}

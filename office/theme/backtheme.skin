@@ -1,0 +1,36 @@
+<asp:Label runat="server"></asp:label>
+<asp:Label runat="server" ForeColor="Red" skinid="redtext"></asp:Label>
+
+<asp:Textbox runat="server" CssClass="box"></asp:Textbox>
+
+<asp:DropDownList style="border:[solid][1px][#000000]; font-family:Arial, helvetica, Sans-Serif; font-size:11px; color:#000000; padding-left:1px;
+layout-grid-line:auto; border-bottom-color:BFBFBF;"  runat="server" ></asp:DropDownList>
+
+ <asp:LinkButton runat="server" cssclass="toptxt"></asp:LinkButton>
+ 
+<asp:GridView runat="server" AutoGenerateColumns="False" BorderWidth="1" CssClass="GridViewStyle1" GridLines="both" cellpadding="3">
+    <AlternatingRowStyle HorizontalAlign=Center />
+    <RowStyle HorizontalAlign=Center />
+    <HeaderStyle HorizontalAlign=Center CssClass="HeaderStyle1"  />
+    <PagerStyle HorizontalAlign=right CssClass="PagerStyle1" />                     
+</asp:GridView>
+
+<asp:GridView runat="server" AutoGenerateColumns="False" BackColor="Transparent" BorderColor="#EBE4DE" BorderStyle="Solid" BorderWidth="1px" CellPadding="4" EmptyDataText="There are no data records to display." ForeColor="Black" GridLines="Vertical" style="margin-top:2em;" width="100%"  skinid="glossygrid1">
+<FooterStyle BackColor="#FAEBE7" />
+<RowStyle BackColor="#EBE4DE"/> 
+<PagerStyle BackColor="#EBE4DE" ForeColor="#F369B1" HorizontalAlign="Right" />
+<SelectedRowStyle BackColor="#FAEBE7" Font-Bold="True" ForeColor="573922" />
+<HeaderStyle BackColor="#FAEBE7" Font-Bold="True" ForeColor="#573922" HorizontalAlign="Center" />
+<AlternatingRowStyle BackColor="Transparent" />
+</asp:GridView>
+
+<asp:GridView runat="server" AllowPaging="True" AutoGenerateColumns="False" CssClass="GridViewStyle" GridLines="None" width="100%" skinid="glossygrid">       
+<RowStyle CssClass="RowStyle" />    
+<EmptyDataRowStyle CssClass="EmptyRowStyle" />    
+<PagerStyle CssClass="PagerStyle" />    
+<SelectedRowStyle CssClass="SelectedRowStyle" />    
+<HeaderStyle CssClass="HeaderStyle" />    
+<EditRowStyle CssClass="EditRowStyle" />    
+<AlternatingRowStyle CssClass="AltRowStyle" />
+</asp:GridView>
+

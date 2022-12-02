@@ -1,0 +1,111 @@
+.redtext
+{
+	color: Red;
+	font-weight: 700;
+}
+.confirm-box, .error-box, .notic-box
+{
+	font: 12px Arial,Helvetica,sans-serif;
+}
+.error-box1
+{
+	border: 1px solid #d35755 !important;
+	color: #333;
+	background: 0 0 !important;
+}
+.error-box
+{
+	border: 1px solid #d35755;
+	color: #f21a1a;
+	background: #feebeb;
+	margin: 10px 0;
+	padding: 10px 0;
+	width: 100%;
+	float: left;
+}
+.notic-box
+{
+	border: 1px solid #FFD324;
+	color: #514721;
+	background: url(/images/warning.gif) 10px no-repeat #FFF6BF;
+	margin: 0 0 10px;
+	display: block;
+	padding: 10px 0 10px 40px;
+	list-style: none;
+}
+.confirm-box {
+    border: 1px solid #AC2727;
+    color: #231F20;
+    background: url(/images/confirm.gif) 10px no-repeat rgba(175, 41, 41, 0.16);
+    margin: 38px 1px;
+    padding: 30px 22px;
+    display: block;
+}
+.error-box ul
+{
+	padding-bottom: 0;
+}
+.error-box ul li
+{
+	background: url(/images/bult3.gif) 0 4px no-repeat;
+	width: 283px;
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 8px;
+}
+.notice-box ul li
+{
+	background: url(../images/bult3.gif) 0 4px no-repeat;
+}
+.error, .notice, .success
+{
+	padding: .8em .8em .8em 27px;
+	margin-bottom: 1em;
+	color: #0c0c0c;
+	border: 1px solid #488cc1;
+	font-size: 12px;
+}
+.error
+{
+	background: url(../../backoffice/assets/icons/cross1.png) left no-repeat #FBE3E4;
+}
+.notice
+{
+	background: url(../../backoffice/assets/icons/warning.gif) left no-repeat #f9fcff;
+}
+.success
+{
+	background: url(../../backoffice/assets/icons/tick.png) left no-repeat #E6EFC2;
+}
+.successnonimage
+{
+	background: left no-repeat #E6EFC2;
+	padding-left: 20px;
+	color: #264409;
+	border-color: #C6D880;
+}
+
+.validatorCalloutHighlight2
+{
+	border: 1px solid Red !important;
+	background: #fbfafa;
+}
+.validatorCalloutHighlight
+{
+	border: 1px solid Red !important;
+	background: #fbfafa;
+}
+.BlockPopup div, .BlockPopup td
+{
+	border: 1px solid #000;
+	background-color: #00f;
+	display: none;
+}
+.validationerror
+{
+	padding-top: 4px;
+	display: block !important;
+	font-size: 16px;
+}
+
+.main-tack  .col-sm-6{ display: inline-block;  width: 48%;  vertical-align: top;}
