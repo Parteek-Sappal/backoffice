@@ -560,6 +560,8 @@
     <Content Include="jscolor\hs.png" />
     <Content Include="jscolor\hv.png" />
     <Content Include="jscolor\jscolor.js" />
+    <Content Include="office\media\addeventstype.aspx" />
+    <Content Include="office\media\add_event_image.aspx" />
     <Content Include="office\assets\activity.gif" />
     <Content Include="office\assets\arrow.gif" />
     <Content Include="office\assets\arrow.png" />
@@ -757,6 +759,11 @@
     <Content Include="office\masters\viewcoursetype.aspx" />
     <Content Include="office\masters\viewdepartment.aspx" />
     <Content Include="office\masters\view_courselevel.aspx" />
+    <Content Include="office\media\mapmediacampus.aspx" />
+    <Content Include="office\media\mediaseo.aspx" />
+    <Content Include="office\media\media_coverage.aspx" />
+    <Content Include="office\media\media_section.aspx" />
+    <Content Include="office\media\viewmedia_section.aspx" />
     <Content Include="office\theme\backtheme.skin" />
     <Content Include="office\layouts\BackMaster.Master" />
     <Content Include="office\bootstrap\css\bootstrap.css.map" />
@@ -859,6 +866,20 @@
     <Compile Include="layers\data\DL_login.cs" />
     <Compile Include="layers\model\ML_cms.cs" />
     <Compile Include="layers\model\ML_login.cs" />
+    <Compile Include="office\media\addeventstype.aspx.cs">
+      <DependentUpon>addeventstype.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\media\addeventstype.aspx.designer.cs">
+      <DependentUpon>addeventstype.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\media\add_event_image.aspx.cs">
+      <DependentUpon>add_event_image.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\media\add_event_image.aspx.designer.cs">
+      <DependentUpon>add_event_image.aspx</DependentUpon>
+    </Compile>
     <Compile Include="office\cms\addpages.aspx.cs">
       <DependentUpon>addpages.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1124,6 +1145,41 @@
     </Compile>
     <Compile Include="office\masters\view_courselevel.aspx.designer.cs">
       <DependentUpon>view_courselevel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\media\mapmediacampus.aspx.cs">
+      <DependentUpon>mapmediacampus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\media\mapmediacampus.aspx.designer.cs">
+      <DependentUpon>mapmediacampus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\media\mediaseo.aspx.cs">
+      <DependentUpon>mediaseo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\media\mediaseo.aspx.designer.cs">
+      <DependentUpon>mediaseo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\media\media_coverage.aspx.cs">
+      <DependentUpon>media_coverage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\media\media_coverage.aspx.designer.cs">
+      <DependentUpon>media_coverage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\media\media_section.aspx.cs">
+      <DependentUpon>media_section.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\media\media_section.aspx.designer.cs">
+      <DependentUpon>media_section.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\media\viewmedia_section.aspx.cs">
+      <DependentUpon>viewmedia_section.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\media\viewmedia_section.aspx.designer.cs">
+      <DependentUpon>viewmedia_section.aspx</DependentUpon>
     </Compile>
     <Compile Include="office\usercontrols\uc_backmenu.ascx.cs">
       <DependentUpon>uc_backmenu.ascx</DependentUpon>
