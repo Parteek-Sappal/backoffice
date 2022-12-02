@@ -808,6 +808,8 @@
     <Content Include="office\Product_Price\assigneprice.aspx" />
     <Content Include="office\Product_Price\enquiry.aspx" />
     <Content Include="office\Product_Price\viewuserproductprice.aspx" />
+    <Content Include="office\redirectionmanagement\redirection.aspx" />
+    <Content Include="office\Registration\viewregistration.aspx" />
     <Content Include="office\theme\backtheme.skin" />
     <Content Include="office\layouts\BackMaster.Master" />
     <Content Include="office\bootstrap\css\bootstrap.css.map" />
@@ -1441,6 +1443,20 @@
     </Compile>
     <Compile Include="office\Product_Price\viewuserproductprice.aspx.designer.cs">
       <DependentUpon>viewuserproductprice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\redirectionmanagement\redirection.aspx.cs">
+      <DependentUpon>redirection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\redirectionmanagement\redirection.aspx.designer.cs">
+      <DependentUpon>redirection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Registration\viewregistration.aspx.cs">
+      <DependentUpon>viewregistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Registration\viewregistration.aspx.designer.cs">
+      <DependentUpon>viewregistration.aspx</DependentUpon>
     </Compile>
     <Compile Include="office\usercontrols\uc_backmenu.ascx.cs">
       <DependentUpon>uc_backmenu.ascx</DependentUpon>
