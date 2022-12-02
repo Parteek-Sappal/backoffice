@@ -784,6 +784,26 @@
     <Content Include="office\others\viewblogenquiry.aspx" />
     <Content Include="office\others\viewdistributor.aspx" />
     <Content Include="office\others\viewenquiry.aspx" />
+    <Content Include="office\Products\category_map_product.aspx" />
+    <Content Include="office\Products\coat.aspx" />
+    <Content Include="office\Products\color.aspx" />
+    <Content Include="office\Products\happenings.aspx" />
+    <Content Include="office\Products\index.aspx" />
+    <Content Include="office\Products\map-photo-gallery.aspx" />
+    <Content Include="office\Products\map-testimonial.aspx" />
+    <Content Include="office\Products\mapallproduct.aspx" />
+    <Content Include="office\Products\orientationtype.aspx" />
+    <Content Include="office\Products\productcategory.aspx" />
+    <Content Include="office\Products\productcolorimg.aspx" />
+    <Content Include="office\Products\productimage.aspx" />
+    <Content Include="office\Products\products.aspx" />
+    <Content Include="office\Products\productsubcategory.aspx" />
+    <Content Include="office\Products\uploadproduct.aspx" />
+    <Content Include="office\Products\viewmapallproduct.aspx" />
+    <Content Include="office\Products\viewproductcategory.aspx" />
+    <Content Include="office\Products\viewproducts.aspx" />
+    <Content Include="office\Products\viewproductsubcategory.aspx" />
+    <Content Include="office\Products\view_color.aspx" />
     <Content Include="office\Product_Price\adduserproductprice.aspx" />
     <Content Include="office\Product_Price\assigneprice.aspx" />
     <Content Include="office\Product_Price\enquiry.aspx" />
@@ -1253,6 +1273,146 @@
     </Compile>
     <Compile Include="office\others\viewenquiry.aspx.designer.cs">
       <DependentUpon>viewenquiry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\category_map_product.aspx.cs">
+      <DependentUpon>category_map_product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\category_map_product.aspx.designer.cs">
+      <DependentUpon>category_map_product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\coat.aspx.cs">
+      <DependentUpon>coat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\coat.aspx.designer.cs">
+      <DependentUpon>coat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\color.aspx.cs">
+      <DependentUpon>color.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\color.aspx.designer.cs">
+      <DependentUpon>color.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\happenings.aspx.cs">
+      <DependentUpon>happenings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\happenings.aspx.designer.cs">
+      <DependentUpon>happenings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\map-photo-gallery.aspx.cs">
+      <DependentUpon>map-photo-gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\map-photo-gallery.aspx.designer.cs">
+      <DependentUpon>map-photo-gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\map-testimonial.aspx.cs">
+      <DependentUpon>map-testimonial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\map-testimonial.aspx.designer.cs">
+      <DependentUpon>map-testimonial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\mapallproduct.aspx.cs">
+      <DependentUpon>mapallproduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\mapallproduct.aspx.designer.cs">
+      <DependentUpon>mapallproduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\orientationtype.aspx.cs">
+      <DependentUpon>orientationtype.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\orientationtype.aspx.designer.cs">
+      <DependentUpon>orientationtype.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\productcategory.aspx.cs">
+      <DependentUpon>productcategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\productcategory.aspx.designer.cs">
+      <DependentUpon>productcategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\productcolorimg.aspx.cs">
+      <DependentUpon>productcolorimg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\productcolorimg.aspx.designer.cs">
+      <DependentUpon>productcolorimg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\productimage.aspx.cs">
+      <DependentUpon>productimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\productimage.aspx.designer.cs">
+      <DependentUpon>productimage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\products.aspx.cs">
+      <DependentUpon>products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\products.aspx.designer.cs">
+      <DependentUpon>products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\productsubcategory.aspx.cs">
+      <DependentUpon>productsubcategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\productsubcategory.aspx.designer.cs">
+      <DependentUpon>productsubcategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\uploadproduct.aspx.cs">
+      <DependentUpon>uploadproduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\uploadproduct.aspx.designer.cs">
+      <DependentUpon>uploadproduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\viewmapallproduct.aspx.cs">
+      <DependentUpon>viewmapallproduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\viewmapallproduct.aspx.designer.cs">
+      <DependentUpon>viewmapallproduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\viewproductcategory.aspx.cs">
+      <DependentUpon>viewproductcategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\viewproductcategory.aspx.designer.cs">
+      <DependentUpon>viewproductcategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\viewproducts.aspx.cs">
+      <DependentUpon>viewproducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\viewproducts.aspx.designer.cs">
+      <DependentUpon>viewproducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\viewproductsubcategory.aspx.cs">
+      <DependentUpon>viewproductsubcategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\viewproductsubcategory.aspx.designer.cs">
+      <DependentUpon>viewproductsubcategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="office\Products\view_color.aspx.cs">
+      <DependentUpon>view_color.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="office\Products\view_color.aspx.designer.cs">
+      <DependentUpon>view_color.aspx</DependentUpon>
     </Compile>
     <Compile Include="office\Product_Price\adduserproductprice.aspx.cs">
       <DependentUpon>adduserproductprice.aspx</DependentUpon>
