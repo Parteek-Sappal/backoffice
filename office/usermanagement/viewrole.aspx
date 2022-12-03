@@ -12,15 +12,15 @@
         </tr>
         <tr>
             <td class="headingtext" colspan="2">
-                <div class="error" align="left" id="trerror" runat="server">
+                <div class="error" align="left" id="trerror" runat="server" visible="false">
                     &nbsp;&nbsp;
                     <asp:Label ID="lblerror" runat="server"></asp:Label>
                 </div>
-                <div class="success" align="left" id="trsuccess" runat="server">
+                <div class="success" align="left" id="trsuccess" runat="server" visible="false">
                     &nbsp;&nbsp;
                     <asp:Label ID="lblsuccess" runat="server"></asp:Label>
                 </div>
-                <div class="notice" align="left" id="trnotice" runat="server">
+                <div class="notice" align="left" id="trnotice" runat="server" visible="false">
                     &nbsp;&nbsp;
                     <asp:Label ID="lblnotice" runat="server"></asp:Label>
                 </div>
@@ -30,8 +30,7 @@
     
         <tr>
             <td align="center" colspan="2">
-                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" GridLines="Horizontal"
-                    HorizontalAlign="Center" Width="100%">
+                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" GridLines="Horizontal" HorizontalAlign="Center" Width="100%" OnRowCommand="GridView1_RowCommand" OnRowDataBound="GridView1_RowDataBound">
                     <HeaderStyle HorizontalAlign="Left" />
                     <RowStyle HorizontalAlign="Left" />
                     <Columns>
