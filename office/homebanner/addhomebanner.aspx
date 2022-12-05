@@ -127,10 +127,8 @@
                     Tag Line:&nbsp;
                 </td>
                 <td align="left" style="width: 85%">
-                    <CKEditor:CKEditorControl ID="CKeditor1" runat="server" Height="250" BasePath="~/ckeditor">
-                    </CKEditor:CKEditorControl>
-                    <asp:TextBox ID="tagline1" runat="server" Width="350" Height="50" TextMode="MultiLine"
-                        Visible="false"></asp:TextBox>
+                    <CKEditor:CKEditorControl ID="tagline1" runat="server" Height="250" BasePath="~/ckeditor">
+                    </CKEditor:CKEditorControl>                    
                 </td>
             </tr>
             <tr style="display:none">
@@ -138,9 +136,8 @@
                     Tag Line2:&nbsp;
                 </td>
                 <td align="left" style="width: 85%">
-                <CKEditor:CKEditorControl ID="CKeditor2" runat="server" Height="250" BasePath="~/ckeditor">
-                    </CKEditor:CKEditorControl>
-                    <asp:TextBox ID="tagline2" runat="server" Width="350" Height="50" TextMode="MultiLine" Visible="false"></asp:TextBox>
+                <CKEditor:CKEditorControl ID="tagline2" runat="server" Height="250" BasePath="~/ckeditor">
+                    </CKEditor:CKEditorControl>                  
                 </td>
             </tr>
             <tr>

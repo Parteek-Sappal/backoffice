@@ -177,31 +177,13 @@ namespace backoffice.office.homebanner
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
-        /// CKeditor1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::CKEditor.NET.CKEditorControl CKeditor1;
-
-        /// <summary>
         /// tagline1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tagline1;
-
-        /// <summary>
-        /// CKeditor2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::CKEditor.NET.CKEditorControl CKeditor2;
+        protected global::CKEditor.NET.CKEditorControl tagline1;
 
         /// <summary>
         /// tagline2 control.
@@ -210,7 +192,7 @@ namespace backoffice.office.homebanner
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tagline2;
+        protected global::CKEditor.NET.CKEditorControl tagline2;
 
         /// <summary>
         /// File1 control.

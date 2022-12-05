@@ -191,7 +191,7 @@ namespace backoffice.office.homebanner
                 else
                 {
                     imgimage.Visible = true;
-                    pvideo.Visible = false;
+                    //pvideo.Visible = false;
                     if (string.IsNullOrEmpty(lblimage.Text))
                     {
                         imgimage.Visible = false;

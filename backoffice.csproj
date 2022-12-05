@@ -890,6 +890,9 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Upload.ashx" />
+    <Content Include="Uploads\LargeImages\1077_sustainability-banner.jpg" />
+    <Content Include="Uploads\ProductsImage\1pdctclrimg_speci.png" />
+    <Content Include="Uploads\ProductsImage\cet_img1.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -921,10 +924,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="layers\business\BL_cms.cs" />
+    <Compile Include="layers\business\BL_homebanner.cs" />
     <Compile Include="layers\business\BL_login.cs" />
     <Compile Include="layers\data\DL_cms.cs" />
+    <Compile Include="layers\data\DL_homebanner.cs" />
     <Compile Include="layers\data\DL_login.cs" />
     <Compile Include="layers\model\ML_cms.cs" />
+    <Compile Include="layers\model\ML_homebanner.cs" />
     <Compile Include="layers\model\ML_login.cs" />
     <Compile Include="office\media\addeventstype.aspx.cs">
       <DependentUpon>addeventstype.aspx</DependentUpon>
@@ -1593,7 +1599,22 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Uploads\banner\" />
+    <Folder Include="Uploads\Blogs\" />
+    <Folder Include="Uploads\Files\" />
+    <Folder Include="Uploads\Image\" />
+    <Folder Include="Uploads\Mapproduct\" />
+    <Folder Include="Uploads\pdf\" />
+    <Folder Include="Uploads\prospectus\" />
+    <Folder Include="Uploads\Recruiters\" />
+    <Folder Include="Uploads\SmallImages\" />
+    <Folder Include="Uploads\socialwall\" />
+    <Folder Include="Uploads\staff\" />
+    <Folder Include="Uploads\StreamImage\" />
+    <Folder Include="Uploads\TestimonialImage\" />
+    <Folder Include="Uploads\vedio\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
