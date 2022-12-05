@@ -23,7 +23,7 @@
                     <asp:Label ID="lblcollage" runat="server"></asp:Label>
                 </td>
                 <td width="70%" align="right">
-                     <a href="/backoffice/collage/viewcollage.aspx" style="color: White"><b>Back To School</b></a> &nbsp;
+                     <a href="/office/collage/viewcollage.aspx" style="color: White"><b>Back To Products</b></a> &nbsp;
                 </td>
             </tr>
         </table>
